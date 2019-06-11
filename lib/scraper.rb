@@ -39,7 +39,7 @@ class Scraper
      end
     attributes[:profile_quote] = doc.css('.profile-quote').text
     attributes[:bio] = doc.css('.description-holder p').text
- #binding.pry
+
 attributes
 
 end
